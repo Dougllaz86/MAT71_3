@@ -8,11 +8,14 @@
   <title>Livro Digital</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="lib/jquery-1.4.3.min.js"></script>
+  <script src="lib/jqmath-etc-0.4.6.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/jqmath-0.4.3.css">
   <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
-  <section id="cap1" class="hero is-large is-primary is-relative" style="background-image:linear-gradient(180deg, rgb(0 0 0 / 0%) 75%, rgb(0 0 0 / 60%) 100%), url(./img/HIS001.jpg);">
+  <section id="cap1" class="hero is-large is-primary is-relative" style="background-image:linear-gradient(180deg, rgb(0 0 0 / 0%) 75%, rgb(0 0 0 / 60%) 100%), url(./img/MAT001.jpg);">
     <div class="hero-body">
       <div class="container">
       </div>
@@ -25,21 +28,23 @@
           <h1 class="title is-size-6-mobile is-size-1-tablet is-spaced is-uppercase">
             <span>Unidade 01</span>
             <br>
-            O Mundo Moderno e o Renascimento Cultural
+            Simetria
           </h1>
           <article class="ponto-partida">
-            <div class="legenda is-size-7">
-              <h6>DA VINCI, Leonardo. <em>Mona Lisa (La Gioconda)</em>. [entre 1503 e 1505]. 1 óleo sobre tela, color., 77 cm × 53 cm. Museu do Louvre, Paris.</h6>
-            </div>
+            <p>Em todo o mundo, algumas cidades se destacam pelas estruturas e tecnologias utilizadas em sua construção. As imagens a seguir mostram uma dessas grandes metrópolis, a qual está localizada no Brasil. </p>
             <h2>Introdução</h2>
-            <p>A obra Mona Lisa, pintura do artista italiano Leonardo da Vinci (1452-1519), é a principal atração do Museu do Louvre, em Paris, o mais visitado do mundo. Essa pintura é a representação de uma mulher com expressão <strong
-                class="has-text-primary">introspectiva</strong>, tímida. Provavelmente, trata-se do retrato mais famoso da História da Arte.</p>
-            <p>Pesquise as razões que fazem dessa obra uma das mais <strong class="has-text-primary">instigantes</strong> e valiosas do mundo. Aproveite para pesquisar também quantas pessoas visitam anualmente o Museu do Louvre e qual é o valor
-              estimado da obra <em>Mona Lisa</em> na atualidade.</p>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p><strong>introspectiva</strong>: pensativa sobre si mesma.</p>
-              <p><strong>instigantes</strong>: estimulantes; que despertam interesse e provocam sentimentos e sensações.</p>
-            </div>
+            <ol>
+              <li>
+                <p>Qual é a cidade brasileira mostrada nessa composição de fotos?</p>
+              </li>
+              <li>
+                <p>Este mosaico, que está nas calçadas dessa cidade, foi criado pela desenhista Mirthes Bernardes. Você sabe no que ela se inspirou para criar o polígono branco ou preto? Pesquise para responder à questão.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT002.jpg" data-aos="fade-up">
+                  <p class="credito-img">©Shutterstock/oliveiralila</p>
+                </figure>
+              </li>
+            </ol>
           </article>
         </div>
       </div>
@@ -53,29 +58,7 @@
             <div class="tile px-0">
               <article class="notification is-primary" data-aos="fade-up">
                 <h2 class="title">Objetivos</h2>
-                <ul>
-                  <li>
-                    <p>Retomar a Crise do Século XIV e sua contribuição para o enfraquecimento do Feudalismo.</p>
-                  </li>
-                  <li>
-                    <p>Compreender a Modernidade, iniciada nos últimos séculos da Idade Média, como um conceito que envolve uma série de mudanças na relação dos seres humanos com o mundo.</p>
-                  </li>
-                  <li>
-                    <p>Localizar temporalmente a Modernidade de acordo com as mudanças que se processaram na Europa desde o século XV até o século XVIII.</p>
-                  </li>
-                  <li>
-                    <p>Estabelecer relação entre as principais características das sociedades europeias do século XIV e as novas ideias propostas pelo movimento humanista.</p>
-                  </li>
-                  <li>
-                    <p>Compreender as principais características políticas, econômicas e sociais da Península Itálica no início da Idade Moderna.</p>
-                  </li>
-                  <li>
-                    <p>Identificar as principais características do movimento humanista, relacionando-o ao Renascimento.</p>
-                  </li>
-                  <li>
-                    <p>Reconhecer as características da arte e da ciência renascentistas nos diversos locais onde o respectivo movimento se desenvolveu.</p>
-                  </li>
-                </ul>
+                <p>Ao final do estudo deste capítulo, você deverá reconhecer as simetrias de translação, de rotação e de reflexão, bem como compreender suas propriedades e construir figuras obtidas por essas transformações geométricas.</p>
               </article>
             </div>
           </div>
@@ -88,426 +71,1110 @@
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop">
           <div class="content">
-            <p>No século XIV, houve um período de crise, no campo e na cidade, agravada por epidemias que dizimaram cerca de 1/3 da população europeia. Essa crise, aos poucos, contribuiu para a decadência do sistema feudal. As mudanças foram tantas
-              que os historiadores, mais tarde, olhando para o passado, perceberam nelas os motivos para afirmar que um novo período havia iniciado: a Idade Moderna, que durou de 1453 até 1789.</p>
-            <h3>Organize as ideias</h3>
-            <p>Complete o esquema a seguir, registrando os fatores que levaram à desagregação do sistema feudal na Europa Ocidental.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/HIS002.jpg" data-aos="fade-up">
-            </figure>
-            <h2>A Modernidade</h2>
-            <p>Você estudou que a História foi dividida em períodos históricos. O período que se inicia com o fim da Idade Média e declínio do Feudalismo é chamado de Idade Moderna.</p>
-            <p>Entretanto, nem todas as características que definem o Mundo Moderno “surgiram” em uma terça-feira de maio de 1453 – momento que os historiadores determinaram como fim da Idade Média, quando se deu a tomada de Constantinopla pelos
-              turco-otomanos. As características que comumente identificamos como medievais também não desapareceram nessa data.</p>
-            <p>Um aspecto da Idade Média no Ocidente é o forte sentimento religioso, que ia além da vida terrena e era a fonte de todo o saber. No mundo medieval, alguns oravam (o clero), outros lutavam (a nobreza) e muitos trabalhavam (os servos).
-            </p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/HIS003.jpg" data-aos="fade-up">
-              <p class="credito-img">©Bibliothèque royale de Belgique</p>
-              <div class="legenda is-size-7">
-                <h6>EUSE, Heinrich. <em>O relógio da sabedoria</em>. Biblioteca Real Albert I, Bruxelas.</h6>
-                <h6>Essa imagem mostra o fascínio pelas máquinas no início do século XIV. São representados instrumentos técnicos conhecidos desde a Antiguidade, como o relógio solar, o astrolábio e o quadrante. Este último instrumento foi
-                  aperfeiçoado e utilizado nas viagens marítimas europeias, assim como a bússola, trazida da China pelos árabes. O relógio mecânico também está representado nessa imagem. A sabedoria está relacionada ao progresso, aos livros e à fé.
-                </h6>
-              </div>
-            </figure>
-            <p>A Idade Moderna, ou Modernidade, é um período que tem a valorização do <strong>talento humano</strong> e da <strong>vida terrena</strong> como principais características. Na visão moderna, a natureza e seus fenômenos são explicados
-              pela ciência e não mais pela religião. O talento humano passou a ser usado, cada vez mais, para alcançar progresso material.</p>
-            <p>O que caracteriza a Modernidade são as novas formas intelectuais, políticas, religiosas e econômicas que surgiram, pouco a pouco, entre os séculos XV e XVIII – o <strong>Renascimento Cultural</strong>, o <strong>Absolutismo</strong>,
-              as <strong>igrejas reformadas</strong> e o
-              <strong>capitalismo</strong>.
-            </p>
-            <h2>Humanismo</h2>
+            <h2>Translação</h2>
+            <p>Antes de estudarmos as simetrias, vamos relembrar que o plano cartesiano é um plano que contém um sistema de eixos perpendiculares entre si no ponto de origem, sendo um eixo horizontal, denominado <strong class="has-text-primary">eixo
+                das abscissas</strong> ou eixo <strong>x</strong>, e um
+              eixo vertical, denominado <strong class="has-text-danger">eixo das ordenadas</strong> ou eixo <strong>y</strong>. Esse plano possibilita determinar a localização de um ponto por meio de um <strong>par ordenado</strong> (abscissa,
+              ordenada), formado
+              pelas coordenadas do ponto. Observe os pontos P e M.</p>
           </div>
         </div>
       </div>
       <div class="columns">
-        <div class="column is-3-desktop is-offset-2-desktop">
-          <div class="content">
-            <p>No século XIV, na Península Itálica, iniciou-se um movimento intelectual que valorizava o ser humano e se contrapunha ao pensamento exclusivamente religioso medieval, chamado <strong>teocentrismo</strong>.</p>
-            <p>Esse movimento buscava resgatar e estudar manuscritos da Antiguidade Clássica (Grécia e Roma), como de Aristóteles e Arquimedes, para desenvolver a instrução e o pensamento crítico. </p>
-          </div>
-        </div>
-        <div class="column is-5-desktop">
+        <div class="column is-4-desktop is-offset-2-desktop">
           <div class="content">
             <figure class="image wrapper mx-0">
-              <img src="./img/HIS004.jpg" data-aos="fade-up">
-              <p class="credito-img">Galeria dos Ofícios, Florença</p>
-              <div class="legenda is-size-7">
-                <h6>CASTAGNO, Andrea del. <em>Francisco Petrarca</em>. 1450. 1 afresco transferido para madeira, color., 247 cm × 153 cm. Galeria Uffizi, Florença.</h6>
-                <h6>Francisco Petrarca foi pioneiro na busca por textos latinos romanos na Península Itálica. Para Petrarca, os textos da Antiguidade valorizaram a ética e a habilidade da linguagem.</h6>
-              </div>
+              <img src="./img/MAT003.jpg" data-aos="fade-up">
             </figure>
+          </div>
+        </div>
+        <div class="column is-4-desktop">
+          <div class="content">
+            <div class="notification is-warning">
+              <p>As coordenadas do ponto P são</p>
+              <ul>
+                <li>
+                  <p>abscissa: <strong>3</strong></p>
+                </li>
+                <li>
+                  <p>ordenada: <strong>2</strong></p>
+                </li>
+                <li>
+                  <p>Indicamos P (3, 2).</p>
+                </li>
+              </ul>
+            </div>
+            <div class="notification is-warning">
+              <p>As coordenadas do ponto M são</p>
+              <ul>
+                <li>
+                  <p>abscissa: <strong>2</strong></p>
+                </li>
+                <li>
+                  <p>ordenada: <strong>3</strong></p>
+                </li>
+                <li>
+                  <p>Indicamos M (2, 3).</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop">
           <div class="content">
-            <p>A afirmação “O homem é a medida de todas as coisas”, do filósofo grego Protágoras, representa os valores que guiavam a cultura greco-romana. Com esse pensamento, Protágoras colocou o homem como referência, como centro. Uma ideia que
-              pode ser resumida no termo <strong>antropocentrismo</strong> (do grego <em>emantripos</em>, que significa humano; e <em>emkentron</em>, centro). Desse modo, podemos constatar que o Humanismo foi inspirado no pensamento da Antiguidade
-              Clássica.</p>
-            <p>A partir do século XV, o termo “humanista” se tornou cada vez mais conhecido. Os humanistas afirmavam que o ser humano é um indivíduo de infinitas possibilidades e que não deveria sofrer limitações quanto ao seu desejo de obter mais
-              conhecimentos.</p>
-            <p>Esse <strong>individualismo</strong> tem por base a valorização do ser humano como ser único, que, dotado de razão, tem pensamentos próprios e é capaz de elaborar julgamentos que não necessariamente serão iguais a de outro indivíduo.
-            </p>
-            <p>Os humanistas incentivavam estudos a respeito da linguagem, da literatura, da história e da filosofia. De acordo com eles, o espírito humano deveria buscar o conhecimento e isso poderia ser alcançado rompendo-se com a tradição e com os
-              <strong class="has-text-primary">dogmas</strong>.
-            </p>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p><strong>dogmas</strong>: pontos da doutrina da Igreja Católica considerados verdades que não podem ser questionadas.</p>
-            </div>
-            <p>Os humanistas pregavam uma nova forma de viver a religião, de maneira mais racional, por meio do entendimento dos ensinamentos de Deus e não apenas pela obediência cega às normas impostas pela Igreja.</p>
-            <h2>Renascimento</h2>
-            <p>O Renascimento foi um movimento de renovação cultural que ocorreu na Europa entre os séculos XIV e XVI. De grande abrangência, manifestou-se em todas as áreas de conhecimento e mudou a visão que o homem tinha do mundo.</p>
-            <p>Você sabe por que esse movimento de renovação cultural recebeu o nome de Renascimento? Leia o fragmento de texto a respeito da origem do termo Renascimento.</p>
-            <article class="message">
-              <div class="message-body">
-                <p>– Você não disse que “renascimento” significa “nascer de novo”?</p>
-                <p>– Disse. E o que viria a nascer de novo eram a arte e a cultura da Antiguidade. Por isso falamos também do humanismo do renascimento: depois da longa Idade Média, que via todos os aspectos da vida a partir de um <strong
-                    class="has-text-primary">prisma</strong> divino, o homem volta a ocupar o centro de tudo. A <strong class="has-text-primary">égide</strong> deste movimento era a seguinte: “De volta às fontes!” e a principal fonte era o humanismo
-                  da
-                  Antiguidade. “Desenterrar” esculturas antigas e manuscritos da Antiguidade tornou-se quase um esporte popular. Aprender grego também virou moda, o que levou a um reestudo da cultura grega.</p>
-              </div>
-            </article>
-            <div class="legenda is-size-7">
-              <h6>GAARDER, Jostein. <em>O mundo de Sofia</em>: romance da história da Filosofia. Tradução de Leonardo Pinto Silva. São Paulo: Companhia das Letras, 2000. p. 216.</h6>
-            </div>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p><strong>prisma</strong>: ponto de vista.</p>
-              <p><strong>égide</strong>: defesa; base.</p>
-            </div>
-            <figure class="image wrapper mx-0">
-              <img src="./img/HIS005.jpg" data-aos="fade-up">
-              <p class="credito-img">©Wikimedia Commons/Sciprogrammer</p>
-              <div class="legenda is-size-7">
-                <h6>ASCLÉPIO, deus da Medicina. [Século II a.C.]. 1 escultura em mármore, 1,24 m de altura. Museu Pergamo (Coleção Natali de Roma), Berlim.</h6>
-                <h6>Observe como as características humanas são enfatizadas nessa obra romana do século II a.C. Asclépio, deus da Medicina, foi representado em uma escultura que valoriza a beleza e a harmonia.</h6>
-              </div>
-            </figure>
-            <p>Artistas, escritores e intelectuais do Renascimento buscaram inspiração nas obras da Antiguidade Clássica. Para os artistas renascentistas, o homem (criação divina) e suas produções deveriam representar beleza para enaltecer o seu
-              criador.</p>
-            <h3>Organize as ideias</h3>
+            <p>Os eixos <strong>x</strong> e <strong>y</strong> dividem o plano cartesiano em 4 partes chamadas de <strong>quadrantes</strong> numerados no sentido anti-horário. Neste capítulo, restringiremos as representações apenas ao 1.º
+              quadrante.</p>
             <ol>
               <li>
-                <p>O que significa a palavra “teocentrismo”? Pesquise o significado dela no dicionário e registre a seguir.</p>
-                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
-              </li>
-              <li>
-                <p>Reflita e responda o que significa dizer que a cultura medieval era marcada pelo teocentrismo.</p>
-                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
-              </li>
-              <li>
-                <p>De acordo com o texto de Jostein Gaarder, que características da Antiguidade estavam sendo “desenterradas” no período do Renascimento?</p>
-                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
-              </li>
-              <li>
-                <p>Explique como a frase “O homem é a medida de todas as coisas” se contrapõe à cultura teocêntrica da Idade Média.</p>
-                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
+                <p>Escreva as coordenadas dos pontos indicados no plano cartesiano a seguir.</p>
               </li>
             </ol>
-            <h2>Península Itálica: riqueza material e heranças do mundo clássico</h2>
-            <p>O movimento renascentista iniciou-se nas ricas cidades de Gênova, Veneza, Florença e Milão, localizadas na região da Península Itálica. Isso ocorreu, em parte, porque essa região foi o “berço” do Império Romano e seus muitos vestígios
-              culturais serviram, assim, de inspiração e estímulo para diversos artistas.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/HIS006.jpg" data-aos="fade-up">
-              <p class="credito-img">Museo del Cenacolo di Andrea del Sarto, Florença</p>
-              <div class="legenda is-size-7">
-                <h6>BUTTERI, Giovanni M. <em>Virgem e criança com Santa’Ana e membros da família Médici como santos</em>. 1575. 1 óleo sobre painel, color., 192 cm × 140 cm. Museo del Cenacolo di Andrea del Sarto, Florença.</h6>
-                <h6>Membros da família Médici retratados como santos com a Virgem Maria, seu filho e Santa’Ana</h6>
-              </div>
-            </figure>
-            <p>Os comerciantes dessas cidades foram os que mais lucraram com o movimento das Cruzadas, mantendo o monopólio do comércio com o Oriente por vários séculos. Esse fator contribuiu para que a burguesia se fortalecesse muito nessa região,
-              consolidando-se relativamente cedo.</p>
-            <p>Os burgueses enriquecidos com as atividades comerciais, manufatureiras e bancárias começaram a financiar artistas e atuar como <strong>mecenas</strong> (protetores dos artistas).</p>
-            <p>Por que a burguesia tinha interesse em financiar artistas?</p>
-            <p>Os burgueses, mesmo sendo bastante ricos, eram considerados inferiores em relação aos nobres. Por esse motivo, financiaram a criação de grandiosos palácios e catedrais e incentivaram as artes, patrocinando artistas para produzirem
-              obras que dessem projeção à burguesia.</p>
-            <p>Essas produções artísticas abordavam temas religiosos e mundanos e, muitas vezes, os próprios burgueses eram retratados pelos pintores. Essas novas representações artísticas, cujo objetivo era ressaltar a burguesia, contribuiu para a
-              difusão de hábitos, valores e comportamentos que se contrapunham, em grande parte, aos valores da sociedade feudal.</p>
           </div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-4-desktop is-offset-2-desktop">
           <div class="content">
-            <p>Famílias influentes que controlavam algumas cidades e desejavam ampliar sua importância na região também passaram a financiar artistas. Duas famílias se destacaram como patrocinadoras das artes renascentistas: os Médicis, em Florença,
-              e os Sforzas, em Milão.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT004.jpg" data-aos="fade-up">
+            </figure>
           </div>
         </div>
         <div class="column is-4-desktop">
           <div class="content">
-            <p>Escritores como Petrarca (1304-1374) e Boccaccio (1313-1375) e pintores como Botticelli (1445-1510) e Rafael (1483-1520), entre outros, receberam esse apoio financeiro, algo indispensável para realizarem suas atividades. A Igreja
-              Católica também financiou artistas, como o pintor, escultor e arquiteto Michelangelo (1475-1564).</p>
+            <table class="table table-bordered table-responsive-sm">
+              <tbody>
+                <tr>
+                  <td>
+                    <p>A (___,___)</p>
+                    <p>B (___,___)</p>
+                    <p>C (___,___)</p>
+                    <p>D (___,___)</p>
+                    <p>E (___,___)</p>
+                  </td>
+                  <td>
+                    <p>F (___,___)</p>
+                    <p>G (___,___)</p>
+                    <p>H (___,___)</p>
+                    <p>I (___,___)</p>
+                    <p>J (___,___)</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop">
           <div class="content">
+            <p>Escreva as coordenadas dos vértices do quadrilátero apresentado.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT005.jpg" data-aos="fade-up">
+            </figure>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+            <ul>
+              <li>
+                <p>Como se denomina esse quadrilátero?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
+              </li>
+            </ul>
+            <p>Na construção do mosaico que representa as calçadas de São Paulo, podemos utilizar módulos. Os módulos e a forma de dispô-los definem o <strong>padrão</strong> do mosaico. Observe o módulo destacado.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT006.jpg" data-aos="fade-up">
+              <p class="credito-img">©Shutterstock/oliveiralila</p>
+            </figure>
             <article class="message">
               <div class="message-body">
-                <p>Além de patrocinar obras que retratavam temas religiosos, os mecenas encomendavam retratos de seus familiares. As telas eram, muitas vezes, solicitadas como presentes de casamento ou para marcar outras ocasiões festivas ou
-                  importantes.</p>
-                <p>Na imagem ao lado, a jovem retratada é Giovanna degli Albizzi, que se casou em 1486 com Lorenzo Tornabuoni. O quadro foi pintado após a morte prematura da jovem e, por se tratar de uma homenagem póstuma, Ghirlandaio inseriu em
-                  latim a inscrição: <em>Ars vtinam mores animvm qve effingere posses pvlchrior in ter ris nvlllatabella foret</em> (Arte, se ao menos você pudesse retratar os costumes e o espírito, não haveria quadro mais bonito do mundo).</p>
-                <figure class="image wrapper mx-0">
-                  <img src="./img/HIS007.jpg" data-aos="fade-up">
-                  <p class="credito-img">Museu Thyssen-Bornemisza, Madri</p>
-                  <div class="legenda is-size-7">
-                    <h6>GHIRLANDAIO, Domênico. <em>Retrato de Giovanna Tornabuoni</em>. 1488. 1 têmpera sobre madeira, color., 76 cm × 50 cm. Museu Thyssen-Bornemisza, Madri.</h6>
-                  </div>
-                </figure>
+                <ol>
+                  <li>
+                    <p>Considerando o octógono ABCDEFGH como o módulo desse mosaico, complete as lacunas com as coordenadas dos vértices desse polígono.</p>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT007.jpg" data-aos="fade-up">
+                    </figure>
+                    <table class="table table-bordered table-responsive-sm is-primary">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>A (___,___)</p>
+                            <p>B (___,___)</p>
+                            <p>C (___,___)</p>
+                            <p>D (___,___)</p>
+                          </td>
+                          <td>
+                            <p>E (___,___)</p>
+                            <p>F (___,___)</p>
+                            <p>G (___,___)</p>
+                            <p>H (___,___)</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </li>
+                  <li>
+                    <p>O segundo módulo já foi posicionado. Complete as lacunas com as coordenadas dos vértices desse polígono. Depois, compare as coordenadas dos pontos do octógono 1 com as do octógono 2.</p>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT008.jpg" data-aos="fade-up">
+                    </figure>
+                    <table class="table table-bordered table-responsive-sm is-primary">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>I (___,___)</p>
+                            <p>J (___,___)</p>
+                            <p>G (___,___)</p>
+                            <p>K (___,___)</p>
+                          </td>
+                          <td>
+                            <p>L (___,___)</p>
+                            <p>M (___,___)</p>
+                            <p>N (___,___)</p>
+                            <p>O (___,___)</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p>Note que foram adicionadas 4 unidades à abscissa de cada vértice. Isso significa que o octógono <strong>2</strong> é uma <strong>translação</strong> do octógono <strong>1</strong>, 4 unidades à direita.</p>
+                  </li>
+                  <li>
+                    <p>Complete as lacunas com as coordenadas dos vértices do terceiro módulo.</p>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT009.jpg" data-aos="fade-up">
+                    </figure>
+                    <table class="table table-bordered table-responsive-sm is-primary">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>V (___,___)</p>
+                            <p>P (___,___)</p>
+                            <p>Q (___,___)</p>
+                            <p>R (___,___)</p>
+                          </td>
+                          <td>
+                            <p>S (___,___)</p>
+                            <p>T (___,___)</p>
+                            <p>U (___,___)</p>
+                            <p>K (___,___)</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p>Perceba que o vértice A tem coordenadas (2, 0) e o ponto correspondente do terceiro módulo, o vértice V, tem coordenadas (4, 2), ou seja, foram adicionadas 2 unidades à primeira e à segunda coordenadas. Isso significa que o
+                      octógono <strong>3</strong> é uma <strong>translação</strong> do octógono <strong>1</strong>, 2 unidades à direita e 2 unidades para cima.</p>
+                  </li>
+                </ol>
               </div>
             </article>
-            <h3>Características do Renascimento</h3>
-            <p>Na perspectiva humanista e antropocêntrica, tudo que era humano passou a ser valorizado – desde sua racionalidade até as sensações provocadas pelos cinco sentidos. Por isso, o prazer oriundo do estímulo aos sentidos, como a satisfação
-              de degustar um alimento ou apreciar uma produção artística, passou a ser enaltecido e incentivado. Essa atitude de valorização do prazer gerado pelo estímulo dos sentidos se origina de uma corrente filosófica criada na Grécia Antiga,
-              denominada <strong>hedonismo</strong>.</p>
-            <p>A <strong>razão</strong>, principal característica que diferencia o ser humano dos demais animais, ganhou grande destaque. Tudo que é fruto da razão – como a criatividade e a inventividade – passou a ser exaltado, fato que se refletiu
-              no grande desenvolvimento artístico do período.</p>
-            <p>Além de incentivar o desenvolvimento das artes, a exaltação da racionalidade gerou uma valorização da capacidade de o ser humano tomar as próprias decisões, baseadas na observação e no raciocínio. Isso afirmou a capacidade humana de
-              agir de acordo com o próprio julgamento e levou muitos indivíduos a criticar a imposição de dogmas e formas de pensar pela Igreja Católica.</p>
-            <p>Nas artes, o individualismo pode ser observado na pintura de retratos, forma artística que exalta o indivíduo por meio da representação de seus traços físicos e captação de suas principais características da personalidade.</p>
+            <p>A repetição de um módulo, por meio do deslocamento paralelo em linha reta, representa a <strong>simetria de translação</strong>.</p>
+            <p>Ao repetir algumas vezes o procedimento de posicionar um módulo e fazer as translações indicadas, é possível notar que vão se formando octógonos brancos, os quais são iguais aos verdes em tamanho e forma.</p>
+            <p>Agora, vamos praticar! Em uma folha de papel quadriculado, use sua criatividade. Crie um módulo e repita-o de modo que forme um padrão, produzindo uma composição.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT010.jpg" data-aos="fade-up">
+            </figure>
+            <div class="notification is-warning">
+              <p>A <strong>translação</strong> é um movimento ou uma transformação geométrica que faz uso do deslocamento de um objeto ou de uma figura em determinado sentido e direção, sem sobreposição e sem que a forma e o tamanho sejam alterados.
+              </p>
+            </div>
+            <p>Observe a translação na faixa decorativa e no papel de parede a seguir.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT011.jpg" data-aos="fade-up">
+              <p class="credito-img">©iStockphoto.com/Irina Karpinchik</p>
+            </figure>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT012.jpg" data-aos="fade-up">
+              <p class="credito-img">©Shutterstock/Juhku</p>
+            </figure>
+            <h3>Atividades</h3>
+            <ol>
+              <li>
+                <p>Neste plano cartesiano, foi desenhado um polígono.</p>
+              </li>
+            </ol>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-    </div>
-    </div>
-  </section>
-  <section class="section" style="background-color:#151b1a;">
-    <div class="container">
       <div class="columns">
         <div class="column is-4-desktop is-offset-2-desktop">
           <div class="content">
             <figure class="image wrapper mx-0">
-              <img src="./img/HIS008.jpg" data-aos="fade-up">
-              <p class="credito-img">©Wikimedia Commons/Frank Zöllner</p>
-              <div class="legenda is-size-7">
-                <h6 class="has-text-white">DA VINCI, Leonardo. <em>A dama e o arminho</em>. [1409]. 1 óleo sobre madeira, color., 40,3 cm × 54,8 cm. Museu Nacional (Coleção Czartoryski), Cracóvia.</h6>
-              </div>
+              <img src="./img/MAT013.jpg" data-aos="fade-up">
             </figure>
           </div>
         </div>
         <div class="column is-4-desktop">
           <div class="content">
-            <div class="notification is-warning" data-aos="fade-up">
-              <p>Como característica marcante da arte plástica nesse período, é possível destacar as técnicas de perspectiva e chiaroscuro. Perspectiva é a técnica por meio da qual os artistas buscam reproduzir espaços reais sobre uma superfície
-                plana, dando a noção de profundidade e de volume. O chiaroscuro é uma técnica que, por meio do contraste entre cores claras e escuras, permite o destaque dos elementos mais importantes e escurecimento dos secundários. Nessa obra de
-                Leonardo da Vinci, é possível observar a utilização do chiaroscuro e da perspectiva.</p>
+            <p><strong class="has-text-primary">a)</strong> Quais as coordenadas dos vértices desse polígono?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+            <p><strong class="has-text-primary">b)</strong> Esse polígono é convexo? Justifique sua resposta.</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+            <p><strong class="has-text-primary">c)</strong> Que tipo de polígono é esse?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+            <p><strong class="has-text-primary">d)</strong> Esse polígono é regular?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="content">
+            <ol start="2">
+              <li>
+                <p>Indique as coordenadas dos vértices do quadrilátero ABCD representado no plano cartesiano.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-4-desktop is-offset-2-desktop">
+          <div class="content">
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT014.jpg" data-aos="fade-up">
+            </figure>
+          </div>
+        </div>
+        <div class="column is-4-desktop">
+          <div class="content">
+            <p><strong class="has-text-primary">a)</strong> Que tipo de quadrilátero foi representado?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+            <p><strong class="has-text-primary">b)</strong> Se o ponto D tivesse como coordenadas (5, 1), quais deveriam ser as coordenadas do ponto C para que o quadrilátero desenhado permanecesse com o mesmo formato?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="content">
+            <ol start="3">
+              <li>
+                <p>Analise cada figura e assinale aquela que apresenta simetria de translação.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-4-desktop is-offset-2-desktop">
+          <div class="content">
+            <p>
+              <label class="radio">
+                <input type="radio" name="answer">
+                <strong class="has-text-primary">a)</strong>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT015.jpg" data-aos="fade-up">
+                </figure>
+              </label>
+            </p>
+            <p>
+              <label class="radio">
+                <input type="radio" name="answer">
+                <strong class="has-text-primary">b)</strong>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT016.jpg" data-aos="fade-up">
+                </figure>
+              </label>
+            </p>
+          </div>
+        </div>
+        <div class="column is-4-desktop">
+          <div class="content">
+            <p>
+              <label class="radio">
+                <input type="radio" name="answer">
+                <strong class="has-text-primary">c)</strong>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT017.jpg" data-aos="fade-up">
+                </figure>
+              </label>
+            </p>
+            <p>
+              <label class="radio">
+                <input type="radio" name="answer">
+                <strong class="has-text-primary">d)</strong>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT018.jpg" data-aos="fade-up">
+                </figure>
+              </label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-8-desktop is-offset-2-desktop">
+          <div class="content">
+            <ol start="4">
+              <li>
+                <p>A árvore desenhada junto ao eixo vertical (y) foi transladada. Observe.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT019.jpg" data-aos="fade-up">
+                </figure>
+                <p><strong class="has-text-primary">a)</strong> Complete a tabela com as coordenadas dos pontos no plano cartesiano.</p>
+                <table class="table table-bordered table-responsive-sm has-text-centered">
+                  <tbody>
+                    <tr class="is-selected">
+                      <th>
+                        <p>Primeira árvore</p>
+                      </th>
+                      <th>
+                        <p>Árvore transladada</p>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>A(___,___)</p>
+                        <p>M(___,___)</p>
+                        <p>T(___,___)</p>
+                      </td>
+                      <td>
+                        <p>U(___,___)</p>
+                        <p>G(___,___)</p>
+                        <p>N(___,___)</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><strong class="has-text-primary">b)</strong> Qual é a relação que se pode observar entre as abscissas dos pontos da primeira árvore e os correspondentes na segunda? E entre as ordenadas?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <p><strong class="has-text-primary">c)</strong> Seguindo o padrão que você descreveu no item <strong>b</strong>, desenhe as próximas duas árvores.</p>
+              </li>
+              <li>
+                <p>No plano cartesiano ao lado, foi desenhado um triângulo ABC. Com base nele, determine os triângulos:</p>
+                <p><strong class="has-text-primary">a)</strong> DEF, transladado 4 unidades à direita.</p>
+                <p><strong class="has-text-primary">b)</strong> GHI, transladado 3 unidades acima.</p>
+                <p><strong class="has-text-primary">c)</strong> JKL, transladado 8 unidades à direita.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT020.jpg" data-aos="fade-up">
+                </figure>
+              </li>
+              <li>
+                <p>Complete o mosaico usando a simetria de translação.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT021.jpg" data-aos="fade-up">
+                </figure>
+              </li>
+              <li>
+                <p>Esta é a obra <em>Ar e água I</em>, de Maurits Cornelis Escher, de 1938. Esse ilustrador holandês se inspirava na natureza e nos conceitos matemáticos para criar gravuras surreais, desafiando a lógica de perspectiva e simetria de
+                  quem as visualiza.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT022.jpg" data-aos="fade-up">
+                  <p class="credito-img">National Gallery of Canada</p>
+                  <div class="legenda is-size-7">
+                    <h6>ESCHER, M.C. <em>Ar e água I</em>. 1938. Xilogravura, 43,8 × 43,8 cm. Galeria Nacional do Canadá.</h6>
+                  </div>
+                </figure>
+                <p>Observe-a atentamente da esquerda para a direita e de cima para baixo. Explique como o artista utilizou a translação entre os peixes e entre os pássaros representados.</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="3"></textarea>
+              </li>
+            </ol>
+            <h2>Rotação</h2>
+            <div class="tile my-6">
+              <article class="notification is-primary px-5">
+                <h3>Matemática em detalhes</h3>
+                <p>Juliana comprou ladrilhos hidráulicos, todos iguais a este, para compor um mosaico.</p>
+                <article class="message">
+                  <div class="message-body">
+                    <p>Veja como ela fez, considerando o 1º. ladrilho como um módulo.</p>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT023.jpg" data-aos="fade-up">
+                      <p class="credito-img">©Shutterstock/most popular</p>
+                    </figure>
+                  </div>
+                </article>
+                <article class="message">
+                  <div class="message-body">
+                    <p>O 2.º ladrilho sofreu um giro antes da colocação, formando a seguinte composição:</p>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT024.jpg" data-aos="fade-up">
+                      <p class="credito-img">©Shutterstock/most popular</p>
+                    </figure>
+                    <p>Note que o giro do 2.º ladrilho foi de <strong>90°</strong> em relação à posição 1.</p>
+                  </div>
+                </article>
+                <article class="message">
+                  <div class="message-body">
+                    <p>Para colocar o 3º. ladrilho, o módulo sofreu um giro de <strong>180°</strong> desde a posição inicial. Isso significa que, tomando como referência a posição 2, o giro foi, novamente, de 90°. Observe:</p>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT025.jpg" data-aos="fade-up">
+                      <p class="credito-img">©Shutterstock/most popular</p>
+                    </figure>
+                  </div>
+                </article>
+                <article class="message">
+                  <div class="message-body">
+                    <p>O 4 .º ladrilho girou <strong>270°</strong> desde a posição inicial e de 90° em relação à posição 3. Veja como ficou o resultado final da colocação desses ladrilhos.</p>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT026.jpg" data-aos="fade-up">
+                      <p class="credito-img">©Shutterstock/most popular</p>
+                    </figure>
+                    <p>Dizemos que essa composição apresenta <strong>simetria de rotação</strong>, uma vez que foi necessário fazer um giro de 90° em torno de um ponto central, com base na posição anterior, ao colocar cada ladrilho.</p>
+                  </div>
+                </article>
+              </article>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="hero is-large is-primary is-relative" style="background-image: linear-gradient(180deg, rgb(0 0 0 / 0%) 75%, rgb(0 0 0 / 60%) 100%), url(./img/MAT027.jpg);">
+    <div class="hero-body has-text-centered">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-5-desktop is-offset-1-desktop mb-6">
+            <blockquote class="is-size-6-mobile is-size-5 has-text-left" data-aos="fade-up">
+              <p>A <strong>rotação</strong> é uma transformação geométrica que faz uso de giros, segundo um ângulo, de um objeto em torno de um ponto fixo (centro de rotação), sem sobreposição e sem que a forma e o tamanho sejam alterados. O giro
+                pode ser feito em sentido horário ou anti-horário.</p>
+            </blockquote>
+            <p>O funcionamento de uma roda-gigante nos dá a ideia de rotação.</p>
+          </div>
+        </div>
+      </div>
+      <p class="credito-img">©iStockphoto.com/Vitalliy </p>
     </div>
   </section>
   <section class="section">
     <div class="container">
       <div class="columns">
-        <div class="column is-4-desktop  is-offset-2-desktop">
-          <div class="content">
-            <div class="notification is-warning" data-aos="fade-up">
-              <p>O antropocentrismo foi expresso em muitos estudos científicos e obras de arte do período, como no caso do homem vitruviano, desenhado por Leonardo da Vinci.</p>
-            </div>
-          </div>
-        </div>
-        <div class="column is-4-desktop">
-          <div class="content">
-            <figure class="image wrapper mx-0">
-              <img src="./img/HIS009.jpg" data-aos="fade-up">
-              <p class="credito-img">©Wikimedia Commons/Luc Viatour</p>
-              <div class="legenda is-size-7">
-                <h6>DA VINCI, Leonardo. <em>O homem de Vitrúvio</em>. 1492. Bico de pena colorido sobre papel, color., 343 mm × 245 mm. Galeria da Academia, Veneza.</h6>
-              </div>
-            </figure>
-          </div>
-        </div>
-
-      </div>
-      <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop">
           <div class="content">
-            <h3>Interpretando documentos</h3>
-            <p>O otimismo também pode ser considerado uma característica do Renascimento, pois, para os humanistas, o ser humano era capaz de resolver problemas por meio de sua razão, observação e experimentação, e, dessa forma, levar a humanidade ao
-              desenvolvimento e reduzir fatores que geram sofrimento.</p>
-            <p>No século XV, o humanista, arquiteto e artista italiano Leon Battista Alberti escreveu o livro <em>Della pittura (Da pintura)</em>. Nessa obra, o autor resumiu as técnicas da pintura até então conhecidas. Leia, a seguir, um fragmento
-              dessa obra.</p>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p>Nós, outros pintores, queremos pelos movimentos do corpo mostrar os movimentos da alma... Convém, portanto, que os pintores tenham um conhecimento perfeito dos movimentos do corpo e os aprendam da natureza para imitar – por mais
-                difícil que seja – os múltiplos movimentos da alma. Que, sem o ter tentado, poderia crer quão difícil é representar um rosto que ri, sem fazê-lo triste ao invés de alegre? E ainda quem poderia, sem grande estudo, exprimir rostos onde
-                a boca, o queixo, os olhos, as faces, a testa se unem no risco ou nas lágrimas? Também é preciso aprendê-lo da natureza, procurando os mais fugitivos aspectos das coisas, e os que fazem imaginar ao espectador mais do que ele vê.</p>
-            </div>
-            <div class="legenda is-size-7">
-              <h6>ALBERTI, L. B. Della pittura. In: TENENTI, Alberto. <em>Florença na época dos Médici</em>: da Cidade ao Estado. São Paulo: Perspectiva, 1973. p. 121.</h6>
-            </div>
-            <p>Retorne à página 1 deste capítulo e observe novamente os detalhes da obra Mona Lisa, de Leonardo da Vinci. De acordo com as informações contidas no fragmento de texto e a análise da obra, responda às questões propostas.</p>
-            <p><strong class="has-text-primary">a)</strong> No decorrer dos séculos, a <em>Mona Lisa</em>, de Leonardo da Vinci, tem despertado inúmeras discussões entre aqueles que a observam. Uns afirmam que a retratada apresenta uma expressão
-              triste, desolada, infeliz. Outros, ao contrário, afirmam que a expressão é de felicidade, tranquilidade, harmonia. Em sua opinião, Da Vinci, ao pintar o retrato <em>Mona Lisa</em> mostrou o “movimento da alma” “pelos movimentos do
-              corpo”?</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="3"></textarea>
-            <p><strong class="has-text-primary">b)</strong> Usando novamente a obra <em>Mona Lisa</em> como exemplo da arte renascentista, explique, de acordo com sua opinião, se essa obra desperta a imaginação de quem a observa conforme destacou o
-              autor do texto.</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="3"></textarea>
-            <h2>Renascimento Científico</h2>
-            <p>A nova forma de pensamento que floresceu com o Renascimento Cultural – e que valoriza a razão humana e sua capacidade de buscar respostas para as grandes questões da humanidade, por meio da observação e da experimentação – acabou se
-              refletindo em uma série de novas descobertas científicas. Por esse motivo, muitos estudiosos afirmam que houve também um Renascimento Científico no período.</p>
-            <p>O renascimento no campo das ciências retomou o método empírico da Antiguidade Clássica. Segundo esse método, o estudo ou a investigação da natureza deveria se basear na observação e na experiência.</p>
-            <p>Os renascentistas retomaram esse método de pesquisa e agregaram inovações a ele, como a prática da experimentação. Para isso, criaram uma série de métodos que lhes permitiam observar a natureza e realizar medições. Essas medições
-              traduziam-se em dados para serem interpretados. Assim, a Matemática tornou-se uma aliada dos humanistas na busca de novas respostas para antigas questões humanas.</p>
-            <article class="message">
-              <div class="message-body">
-                <h4>Pesquisa</h4>
-                <p>Leonardo da Vinci foi um grande pintor da época renascentista, mas ele não se interessava apenas por pincéis e tintas. Sua mente era investigativa e ele apreciava o estudo e a pesquisa em diferentes áreas do conhecimento. Da Vinci
-                  foi escultor, arquiteto, engenheiro, físico, urbanista, matemático, astrônomo, geólogo, anatomista, músico, botânico e cozinheiro. Também era um observador do voo dos pássaros e procurou, incessantemente, inventar e construir uma
-                  máquina que permitisse aos seres humanos voar como eles. Muitas das invenções de Da Vinci só “saíram do papel” centenas de anos depois de sua morte.</p>
-                <span class="icone-documento"></span>
-                <p>Vamos descobrir quais foram essas invenções? Faça uma pesquisa sobre o “lado inventor” de Da Vinci e registre, em seu caderno, três dessas invenções. Pesquise também quando essas invenções foram produzidas de forma industrial e se
-                  os conceitos de Da Vinci ajudaram os cientistas dos séculos seguintes a aprimorar tais inventos.</p>
-              </div>
-            </article>
-            <p>Algumas descobertas científicas desse período, no entanto, causaram grandes polêmicas por contrariarem ideias defendidas pela Igreja. Esse foi o caso, por exemplo, das descobertas feitas por Nicolau Copérnico (1473-1543).</p>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p>Um dos estudos mais importantes desenvolvidos nesse período foi o do astrônomo Nicolau Copérnico. Com base na teoria do filósofo grego Aristarco de Sarno (século III a.C.), ele afirmou que a Terra e os outros planetas giravam ao
-                redor do Sol. Por essa razão, essa teoria foi denominada heliocêntrica – Sol (hélio) no centro.</p>
-              <p>A Igreja, por sua vez, afirmava que o Sol e os outros planetas giravam ao redor da Terra. Era a teoria geocêntrica – Terra (geo) no centro. A teoria de Copérnico, portanto, contrariava os preceitos da Igreja, pois retirava da Terra a
-                posição de mais importante criação divina, representada pela ideia de que todos os demais astros giravam ao redor do Planeta.</p>
-              <p>Copérnico faleceu no dia em que a sua obra Das revoluções dos mundos celestes foi publicada, em 1543.</p>
-            </div>
-            <p>Galileu Galilei (1564-1642), cientista da época renascentista, desenvolveu novos métodos para estudar os corpos celestes por meio da observação em telescópio e confirmou a teoria de Copérnico. Em 1611, Galileu foi acusado de heresia e
-              condenado à reclusão permanente em sua casa.</p>
+            <h3>Atividades</h3>
+            <ol>
+              <li>
+                <p>Complete esta faixa, fazendo rotações de 90° do pentágono, no sentido anti-horário, a partir da posição anterior.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT028.jpg" data-aos="fade-up">
+                </figure>
+              </li>
+              <li>
+                <p>O nado sincronizado é uma modalidade olímpica disputada somente por mulheres. Duetos ou equipes realizam apresentações nas quais as atletas são livres para criar os movimentos de uma coreografia. Observe a foto de uma formação.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT029.jpg" data-aos="fade-up">
+                  <p class="credito-img">©iStockphoto.com/petesaloutos </p>
+                </figure>
+                <p>Para que uma nadadora assuma exatamente a posição da outra em um giro nessa formação, ele deverá ser de</p>
+                <p>
+                  <label class="radio">
+                    <input type="radio" name="answer1">
+                    <strong class="has-text-primary">a)</strong> 45º.
+                  </label>
+                </p>
+                <p>
+                  <label class="radio">
+                    <input type="radio" name="answer1">
+                    <strong class="has-text-primary">b)</strong> 60º.
+                  </label>
+                </p>
+                <p>
+                  <label class="radio">
+                    <input type="radio" name="answer1">
+                    <strong class="has-text-primary">c)</strong> 90º.
+                  </label>
+                </p>
+                <p>
+                  <label class="radio">
+                    <input type="radio" name="answer1">
+                    <strong class="has-text-primary">d)</strong> 120º.
+                  </label>
+                </p>
+              </li>
+              <li>
+                <p>Esta é a foto de um aerogerador, um equipamento que utiliza a energia cinética do vento para convertê-la em energia elétrica. Esse sistema utiliza energia limpa e sustentável, uma vez que o vento é fonte renovável e inesgotável. O
+                  princípio utilizado em sua construção é o mesmo dos cata-ventos feitos de papel, pois a energia vem do movimento rotacional de suas pás.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT030.jpg" data-aos="fade-up">
+                  <p class="credito-img">©Shutterstock/BESTWEB</p>
+                </figure>
+                <p>Para observar esse movimento, vamos construir um cata-vento. Você vai precisar de um quadrado de papel de 16 cm de largura, um palito de churrasco, cola branca ou cola quente, tesoura, régua, um pedaço de canudo e um pedaço de
+                  arame ou uma tachinha.</p>
+                <p>1º. No quadrado de papel, trace as duas diagonais, dividindo o quadrado em 4 triângulos. Pinte cada triângulo de uma cor, nos dois lados do papel, utilizando as cores vermelha, verde, amarela e azul.</p>
+                <p>2º. De cada um dos 4 vértices para o centro, recorte 9 cm sobre a diagonal.</p>
+                <p>3º. Cole, alternadamente, uma ponta sim e uma não no ponto central do quadrado. Esse será o ponto de giro.</p>
+                <p>4º. Faça um furo no ponto central com a tesoura ou com a tachinha.</p>
+                <p>5º. Passe o pedaço de canudo com o arame dentro e prenda no palito de churrasco. Caso opte pela tachinha, fixe diretamente no palito de churrasco e, para não espetar o dedo, cole um pedaço de EVA na ponta.</p>
+                <p>No cata-vento, temos um exemplo concreto de simetria de rotação, pois a posição de cada uma das hélices representa uma rotação das demais. Nele, as hélices giram em torno de um ponto fixo central.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT031.jpg" data-aos="fade-up">
+                  <p class="credito-img">©Shutterstock/MaxWebb</p>
+                </figure>
+                <p>Agora, segure seu cata-vento na vertical para responder às questões propostas.</p>
+                <p><strong class="has-text-primary">a)</strong> De frente para o cata-vento, sopre-o levemente. Em que sentido ele girou?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <p><strong class="has-text-primary">b)</strong> Com a ponta azul do cata-vento voltada para baixo, gire 180°. Onde ela foi parar?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <p><strong class="has-text-primary">c)</strong> Com a ponta amarela do cata-vento voltada para baixo, faça um giro de 90°. Em que direção ela foi parar?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <p><strong class="has-text-primary">d)</strong> Com a ponta vermelha do cata-vento voltada para cima, faça um giro de 540°. Onde ela parou?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <p><strong class="has-text-primary">e)</strong> Agora, deixe a ponta amarela voltada para cima e faça um giro de 450°. Em que direção ela parou?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+              </li>
+              <li>
+                <p>Considere este módulo.</p>
+                <p>O conjunto formado por quatro módulos é um padrão.</p>
+                <table class="table table-bordered table-responsive-sm has-text-centered">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>Módulo</p>
+                      </td>
+                      <td>
+                        <p>Padrão</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <figure class="image wrapper mx-0">
+                          <img src="./img/MAT032.jpg" data-aos="fade-up">
+                          <p class="credito-img">©iStockphoto.com/Maria_Galybina</p>
+                        </figure>
+                      </td>
+                      <td>
+                        <figure class="image wrapper mx-0">
+                          <img src="./img/MAT033.jpg" data-aos="fade-up">
+                          <p class="credito-img">©iStockphoto.com/Maria_Galybina</p>
+                        </figure>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><strong class="has-text-primary">a)</strong> O módulo rotacionou quantos graus de 1 para 2? E em qual sentido: horário ou anti-horário?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <p><strong class="has-text-primary">b)</strong> E de 1 para 3?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+              </li>
+              <li>
+                <p>Construa uma faixa decorativa que apresente simetria de rotação. Para isso, pinte os quadrados (módulos), que vão compor um padrão. Você deverá ilustrar o módulo e replicá-lo de modo que forme um padrão que apresente simetria de
+                  rotação.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT034.jpg" data-aos="fade-up">
+                </figure>
+              </li>
+              <li>
+                <p>Esta é a High Roller, uma das maiores rodas-gigantes do mundo. Ela fica em Las Vegas, tem 28 cabines e leva 30 minutos para dar um giro completo.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT035.jpg" data-aos="fade-up">
+                  <p class="credito-img">©iStockphoto.com/Aneese</p>
+                </figure>
+                <p>Considerando o movimento realizado, responda às questões propostas.</p>
+                <p><strong class="has-text-primary">a)</strong> Em quanto tempo a High Roller executa um giro de 60°?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
+                <p><strong class="has-text-primary">b)</strong> Quanto tempo, aproximadamente, uma cabine leva para ocupar o lugar de outra?</p>
+                <table class="table table-borderless table-responsive-sm has-text-centered" style="width:50%">
+                  <tbody>
+                    <tr>
+                      <td style="border:none;">
+                        <p>30</p>
+                      </td>
+                      <td style="border-bottom: 1px solid blue; border-left: 1px solid blue;">
+                        <p>28</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea has-text-centered" placeholder="" rows="4"></textarea>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><strong class="has-text-primary">c)</strong> Uma cabine gira, aproximadamente, quantos graus para ocupar o lugar da seguinte?</p>
+                <table class="table table-borderless table-responsive-sm has-text-centered" style="width:50%">
+                  <tbody>
+                    <tr>
+                      <td style="border:none;">
+                        <p>360</p>
+                      </td>
+                      <td style="border-bottom: 1px solid blue; border-left: 1px solid blue;">
+                        <p>28</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea has-text-centered" placeholder="" rows="4"></textarea>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><strong class="has-text-primary">d)</strong> Considerando a cabine que está no ponto mais próximo do solo, quantos graus a roda-gigante deverá girar para que essa cabine atinja o ponto mais alto?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
+              </li>
+            </ol>
+            <h2>Reflexão</h2>
+            <p>Esta imagem foi apresentada no início do capítulo. É da ponte estaiada Octávio Frias de Oliveira, na cidade de São Paulo.</p>
             <figure class="image wrapper mx-0">
-              <img src="./img/HIS010.jpg" data-aos="fade-up">
-              <p class="credito-img">©Wikimedia Commons</p>
-              <div class="legenda is-size-7">
-                <h6>PLANISFÉRIO de Copérnico. Ilustração, color. In: CELLARIUS, Andreas. <em>Harmonia macrocósmica</em>. 1660.</h6>
-                <h6>Representação do Sistema Solar conforme proposto por Galileu Galilei</h6>
-              </div>
+              <img src="./img/MAT036.jpg" data-aos="fade-up">
+              <p class="credito-img">©Shutterstock/Thiago Leite</p>
             </figure>
-            <h2>Expansão do Renascimento</h2>
-            <p>O Renascimento Cultural foi se consolidando na Península Itálica e, gradativamente, começou a se expandir por outras regiões da Europa Ocidental.</p>
-            <p>Nos Países Baixos, as ideias do Renascimento encontraram grande receptividade. A burguesia, enriquecida com o comércio, desejava conquistar um espaço maior na sociedade. Nessa região, destacaram-se os pintores Jan van Eyck (1390-1441)
-              e Pieter Bruegel (1525-1569), cujas obras retratavam o cotidiano das camadas populares.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/HIS011.jpg" data-aos="fade-up">
-              <p class="credito-img">©Wikimedia Commons/City of Detroit Purchase</p>
-              <div class="legenda is-size-7">
-                <h6>BRUEGEL, Pieter [o Velho]. <em>Dança de casamento ao ar livre</em>. 1556. 1 óleo sobre painel, color., 119 cm × 157 cm. Instituto das Artes, Detroit.</h6>
-                <h6>Essa obra de Bruegel retrata uma festa de casamento entre camponeses.</h6>
-              </div>
-            </figure>
-            <h3>Troca de ideias</h3>
-            <p>As obras de Pieter Bruegel se tornaram uma importante fonte histórica para o estudo do cotidiano dos camponeses e artesãos do século XVI.</p>
-            <p>É importante lembrar que a maioria dos artistas trabalhava a serviço de seus mecenas e, nos Países Baixos, isso significava estar a serviço dos burgueses.</p>
-            <p>À seguir você encontrará a reprodução de uma obra de Bruegel. Nela há alguns dos principais jogos e brincadeiras de crianças daquele período. Leia as informações referentes à obra <em>Jogos infantis</em> e observe-a atentamente.</p>
-            <article class="message">
-              <div class="message-body">
-                <p>O quadro reproduzido, pintado por Pieter Bruegel em 1560, fornece algumas referências do que era ser criança durante o século XVI na Europa. Na obra, podemos observar que o cenário provavelmente retrata a praça de uma cidade, onde
-                  crianças brincam tranquilamente enquanto os pais cuidam de seus afazeres. Ao todo, são retratadas aproximadamente 250 crianças brincando com pedaços de madeira e ossos, com aros e barris, pois peças criadas com a finalidade de serem
-                  brinquedos eram raras no século XVI. Calcula-se que apareçam na pintura em torno de 80 jogos e brincadeiras infantis. Entre eles, podemos citar bambolê, pernas de pau, brincadeiras de roda, cavalinho, pula-sapo, cabra-cega, além da
-                  presença de bonecas e outros tipos de brinquedo. Várias dessas brincadeiras existem na atualidade.</p>
-                <p>Será que você consegue identificar algumas das brincadeiras e jogos representados na obra? Reúna-se com um colega e tentem descobrir o maior número possível.</p>
-              </div>
-            </article>
-            <figure class="image wrapper mx-0">
-              <img src="./img/HIS012.jpg" data-aos="fade-up">
-              <div class="legenda is-size-7">
-                <h6>BRUEGEL, Pieter [o Velho]. <em>Jogos infantis</em>. 1560. 1 óleo sobre madeira, color., 118 cm × 161 cm. Museu Kunsthistorisches, Viena.</h6>
-              </div>
-            </figure>
-            <p>Após a análise dos documentos, responda às seguintes questões.</p>
-            <p><strong class="has-text-primary">a)</strong> Quais das brincadeiras ilustradas ainda fazem parte do cotidiano infantil?</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
-            <p><strong class="has-text-primary">b)</strong> Quais das brincadeiras mostradas na obra são desconhecidas na atualidade?</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
-            <p><strong class="has-text-primary">c)</strong> Cite aquelas que você considerou mais interessantes. </p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
-            <p>Não foi em toda a Europa, no entanto, que o Renascimento ocorreu simultaneamente às cidades italianas. Na Península Ibérica, por exemplo, o Renascimento ocorreu posteriormente por causa dos investimentos de Portugal e da Espanha no
-              Expansionismo Marítimo.</p>
+            <p>O que se pode perceber na imagem que aparece nas águas do Rio Pinheiros?</p>
+            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+            <p>Vamos estudar uma propriedade que algumas figuras geométricas apresentam.</p>
+            <p>Observe outra foto dessa ponte. Ela é a única do mundo com duas pistas em curva independentes, as quais estão conectadas por cabos de aço (chamados de estais, por isso a denominação estaiada) a um mastro de 138 metros de altura – o que
+              equivale a um prédio de 46 andares.</p>
           </div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-4-desktop is-offset-2-desktop">
           <div class="content">
-            <p>Desde o início do século XV, os portugueses haviam se voltado para as viagens marítimas pelo Oceano Atlântico, empreendimento em que estava envolvida a alta burguesia. Nesse sentido, praticamente todos os esforços e recursos dos
-              portugueses estavam voltados para o desenvolvimento de técnicas e equipamentos que facilitassem a navegação.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT037.jpg" data-aos="fade-up">
+              <p class="credito-img">©Shutterstock/Filipe Frazao</p>
+            </figure>
           </div>
         </div>
         <div class="column is-4-desktop">
           <div class="content">
-            <p>Pode-se dizer que eles obtiveram grande sucesso nessa empreitada, pois conseguiram contornar todo o continente africano e chegar ao Oriente, onde poderiam, assim como os mercadores da Península Itálica, comprar especiarias e
-              revendê-las por preços mais elevados, obtendo, assim, muitas riquezas.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT038.jpg" data-aos="fade-up">
+            </figure>
           </div>
         </div>
       </div>
       <div class="columns">
         <div class="column is-8-desktop is-offset-2-desktop">
           <div class="content">
-            <p>Os portugueses foram aprimorando cada vez mais suas técnicas de navegação, até que, no ano de 1500, chegaram ao continente americano. Podemos, portanto, afirmar que o Renascimento em Portugal esteve muito mais relacionado à ciência do
-              que à arte. Entretanto, isso não significa dizer que não houve importantes produções artísticas naquele momento. No período, produziu-se uma das obras mais ilustres da literatura portuguesa: <em>Os lusíadas</em>, de Luís Vaz de Camões
-              Nela, o autor exalta o povo português, sobretudo por sua supremacia na arte da navegação.</p>
-            <p>A Espanha passava por uma situação semelhante à de Portugal, uma vez que estava voltada ao desenvolvimento da navegação e à conquista de novos territórios. Nessa região, no entanto, o contexto era mais complicado, pois os espanhóis
-              precisavam resolver um problema interno: expulsar de seu território os árabes, que haviam ocupado há muito tempo a área e se recusavam a sair. Em 1492, os árabes foram expulsos. Com o território unificado, o movimento renascentista foi
-              favorecido. Como exemplo do retorno ao Humanismo, podemos citar a famosa obra de Miguel de Cervantes (1547-1616), <em>D. Quixote de la Mancha</em>, em que o autor faz uma sátira aos valores medievais da cavalaria.</p>
-            <p>França e Inglaterra estiveram, durante muito tempo, envolvidas na Guerra dos Cem Anos (de 1337 a 1453). Por esse motivo, o Renascimento demorou certo tempo para chegar a esses países. Na Inglaterra, por exemplo, podemos destacar as
-              obras produzidas por William Shakespeare (1564-1616), autor de muitas peças teatrais, como <em>Romeu e Julieta</em> (a história da peça se passa em Verona).</p>
+            <p>Podemos imaginar uma linha vertical passando bem no meio da estrutura, como no desenho.</p>
+            <p>Essa linha divide a estrutura em duas partes iguais, em posições opostas, que, se pudessem ser sobrepostas, coincidiriam. Dizemos, então, que a estrutura é simétrica em relação a essa linha, a qual é denominada <strong>eixo de
+                simetria</strong>.</p>
+            <div class="notification is-warning">
+              <p>A simetria obtida em relação a um eixo é chamada de <strong>simetria axial</strong>.</p>
+            </div>
+            <p><strong class="has-text-primary">a)</strong> Algumas das figuras abaixo nos dão a ideia de simetria. Assinale as que parecem simétricas e trace seus eixos de simetria.</p>
+            <table class="table table-bordered table-responsive-sm">
+              <tbody>
+                <tr>
+                  <td>
+                    <label class="checkbox">
+                      <input type="checkbox">
+                    </label>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT039.jpg" data-aos="fade-up">
+                      <p class="credito-img">©iStockphoto.com/sofiaworld</p>
+                    </figure>
+                  </td>
+                  <td>
+                    <label class="checkbox">
+                      <input type="checkbox">
+                    </label>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT040.jpg" data-aos="fade-up">
+                      <p class="credito-img">©iStockphoto.com/MauMyHaT </p>
+                    </figure>
+                  </td>
+                  <td>
+                    <label class="checkbox">
+                      <input type="checkbox">
+                    </label>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT041.jpg" data-aos="fade-up">
+                      <p class="credito-img">©Shutterstock/Dora Zett</p>
+                    </figure>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="checkbox">
+                      <input type="checkbox">
+                    </label>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT042.jpg" data-aos="fade-up">
+                      <p class="credito-img">©iStockphoto.com/AlexMaster</p>
+                    </figure>
+                  </td>
+                  <td>
+                    <label class="checkbox">
+                      <input type="checkbox">
+                    </label>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT043.jpg" data-aos="fade-up">
+                      <p class="credito-img">©iStockphoto.com/posteriori</p>
+                    </figure>
+                  </td>
+                  <td>
+                    <label class="checkbox">
+                      <input type="checkbox">
+                    </label>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT044.jpg" data-aos="fade-up">
+                      <p class="credito-img">©Shutterstock/yod67</p>
+                    </figure>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p><strong class="has-text-primary">b)</strong> Complete as figuras de modo que a linha tracejada seja seu eixo de simetria.</p>
             <figure class="image wrapper mx-0">
-              <img src="./img/HIS013.jpg" data-aos="fade-up">
-              <p class="credito-img">©Wikimedia Commons/Georges Jansoone</p>
-              <div class="legenda is-size-7">
-                <h6>GONÇALVES, Nuno. <em>Peça do altar de São Vicente, o painel do infante</em>. 1460. 1 óleo sobre madeira, color., 207 cm × 129 cm. Museu de Arte Antiga, Lisboa.</h6>
-                <h6>Ao lado direito da imagem, está representado D. Henrique, o Navegador (1394-1460), pioneiro das navegações portuguesas no século XV.</h6>
-              </div>
+              <img src="./img/MAT045.jpg" data-aos="fade-up">
             </figure>
+            <p><strong class="has-text-primary">c)</strong> Diana está em frente ao espelho.</p>
+            <figure class="image wrapper mx-0">
+              <img src="./img/MAT046.jpg" data-aos="fade-up">
+              <p class="credito-img">©iStockphoto.com/gpointstudio</p>
+            </figure>
+            <ul>
+              <li>
+                <p>Com qual mão ela está escovando os dentes?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+              </li>
+              <li>
+                <p>Para quem olha a imagem refletida pelo espelho, a mão usada para escovar os dentes parece ser a direita ou a esquerda?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+              </li>
+            </ul>
+            <p>Note que Diana e sua imagem refletida são simétricas e que o espelho é o plano que faz essa simetria, denominada de <strong>reflexão</strong>.</p>
+            <p><strong class="has-text-primary">d)</strong> Siga as instruções abaixo e responda às questões.</p>
+            <ol>
+              <li>
+                <p>Marque o ponto A’ simétrico de A.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT047.jpg" data-aos="fade-up">
+                </figure>
+              </li>
+              <li>
+                <p>Represente o segmento A’B’ simétrico ao $\ov AB$.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT047b.jpg" data-aos="fade-up">
+                </figure>
+                <ul>
+                  <li>
+                    <p>O que é possível concluir em relação às medidas dos segmentos AB, BC e CA e de seus simétricos A’B’, B’C’ e C’A’? </p>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                  </li>
+                  <li>
+                    <p>Os ângulos internos do triângulo original são congruentes aos do triângulo refletido?</p>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                  </li>
+                  <li>
+                    <p>Observe os vértices do triângulo original em ordem alfabética. Eles estão em sentido horário ou anti-horário?</p>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                  </li>
+                  <li>
+                    <p>E os vértices do triângulo refletido em ordem alfabética estão em sentido horário ou anti-horário?</p>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p>Represente o triângulo A’B’C’ simétrico ao triângulo ABC.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT048.jpg" data-aos="fade-up">
+                </figure>
+                <div class="notification is-warning">
+                  <p>A <strong>reflexão</strong> é uma transformação geométrica que conserva a forma e o tamanho das figuras. A posição da figura transformada é oposta à da figura original.</p>
+                </div>
+              </li>
+            </ol>
+            <h3>Atividades</h3>
+            <ol>
+              <li>
+                <p>Você vai precisar de uma folha de papel quadrada, com lados entre 15 e 20 cm, para construir um Abre e fecha.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT049.jpg" data-aos="fade-up">
+                  <p class="credito-img">©Shutterstock/successo images</p>
+                </figure>
+                <p>Para a construção, siga estas instruções e responda às questões propostas.</p>
+                <p>I. Dobre e desdobre a folha diagonalmente, só para marcar.</p>
+                <p><strong class="has-text-primary">a)</strong> As diagonais se intersectaram em que ponto?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT050.jpg" data-aos="fade-up">
+                  <p class="credito-img">©iStockphoto.com/elena_hramowa</p>
+                </figure>
+                <p><strong class="has-text-primary">b)</strong> O quadrado é uma figura simétrica. Quantos eixos de simetria ele tem?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <p>II. Desloque cada vértice do quadrado para o centro. Vire o papel com as dobras para baixo.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT051.jpg" data-aos="fade-up">
+                </figure>
+                <p>III. Dobre cada vértice desse novo quadrado até o centro.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT052.jpg" data-aos="fade-up">
+                </figure>
+                <p>IV. Dobre ao meio, formando um retângulo e, novamente, ao meio, formando um quadrado. Desdobre voltando à situação final do passo III.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT053.jpg" data-aos="fade-up">
+                </figure>
+                <p>V. Pinte cada um dos 8 triângulos de uma cor, recorte-os como mostra a figura e escreva uma palavra que represente uma mensagem positiva na parte interna dos triângulos. Serão 8 palavras ao todo.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT054.jpg" data-aos="fade-up">
+                </figure>
+                <ul>
+                  <li>
+                    <p>Quais tipos de triângulos foram formados?</p>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                  </li>
+                  <li>
+                    <p>Esses triângulos apresentam eixo de simetria? Quantos?</p>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                  </li>
+                </ul>
+                <p>VI. Volte o papel à posição do passo III. Em seguida, dobre o quadrado ao meio, de baixo para cima, formando um retângulo. Posicione os polegares e indicadores nas aberturas sinalizadas.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT055.jpg" data-aos="fade-up">
+                </figure>
+                <p>VII. Segure o Abre e fecha e mantenha a dobradura fechada. Peça ao colega que escolha um número de 1 a 10. Movimente a dobradura o número de vezes que ele pedir. Depois, peça ele que escolha uma cor. Em seguida, abra o triângulo
+                  correspondente a essa cor e leia a palavra.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT055b.jpg" data-aos="fade-up">
+                  <p class="credito-img">Jack Art. 2017. Digital.</p>
+                </figure>
+              </li>
+              <li>
+                <p>A simetria está presente na arquitetura das cidades. Em cada imagem, trace, se possível, o eixo de simetria.</p>
+                <div class="notification is-warning">
+                  <p><strong class="has-text-primary">a)</strong> Catedral de Brasília, DF, Brasília.</p>
+                  <figure class="image wrapper mx-0">
+                    <img src="./img/MAT056.jpg" data-aos="fade-up">
+                    <p class="credito-img">©Shutterstock/ostill</p>
+                  </figure>
+                  <p><strong class="has-text-primary">b)</strong> Congresso Nacional, DF, Brasília.</p>
+                  <figure class="image wrapper mx-0">
+                    <img src="./img/MAT057.jpg" data-aos="fade-up">
+                    <p class="credito-img">©Shutterstock/gary yim</p>
+                  </figure>
+                  <p><strong class="has-text-primary">c)</strong> Ilha artificial no Golfo Pérsico em Dubai, Emirados Árabes.</p>
+                  <figure class="image wrapper mx-0">
+                    <img src="./img/MAT058.jpg" data-aos="fade-up">
+                    <p class="credito-img">©iStockphoto.com/rjycnfynby</p>
+                  </figure>
+                  <p><strong class="has-text-primary">d)</strong> Memorial Hall, Taipei, Taiwan.</p>
+                  <figure class="image wrapper mx-0">
+                    <img src="./img/MAT058b.jpg" data-aos="fade-up">
+                    <p class="credito-img">©Shutterstock/Kanisorn Pringthongfoo</p>
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <p>Complete os desenhos em relação ao eixo de simetria indicado.</p>
+                <div class="notification is-warning">
+                  <p><strong class="has-text-primary">a)</strong></p>
+                  <figure class="image wrapper mx-0">
+                    <img src="./img/MAT059.jpg" data-aos="fade-up">
+                  </figure>
+                  <p><strong class="has-text-primary">b)</strong></p>
+                  <figure class="image wrapper mx-0">
+                    <img src="./img/MAT060.jpg" data-aos="fade-up">
+                  </figure>
+                  <p><strong class="has-text-primary">c)</strong></p>
+                  <figure class="image wrapper mx-0">
+                    <img src="./img/MAT061.jpg" data-aos="fade-up">
+                  </figure>
+                  <p><strong class="has-text-primary">d)</strong></p>
+                  <figure class="image wrapper mx-0">
+                    <img src="./img/MAT062.jpg" data-aos="fade-up">
+                  </figure>
+                </div>
+              </li>
+              <li>
+                <p>Observe os polígonos e o círculo e investigue a existência ou não de eixos de simetria, escrevendo, a seguir, a quantidade deles em cada figura. Depois, trace os eixos de simetria que existirem.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT063.jpg" data-aos="fade-up">
+                </figure>
+                <table class="table table-bordered table-responsive-sm has-text-right">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>Triângulo escaleno:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Triângulo isósceles:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Triângulo equilátero:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Quadrado:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Retângulo:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Paralelogramo:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Pentágono regular:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Hexágono regular:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Círculo:</p>
+                      </td>
+                      <td>
+                        <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <ul>
+                  <li>
+                    <p>Que relação existe entre o número de lados e o número de eixos de simetria de um polígono regular?</p>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p>Analise a figura deste mandala indiano.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT064.jpg" data-aos="fade-up">
+                  <p class="credito-img">©Shutterstock/Snezh</p>
+                </figure>
+                <p><strong class="has-text-primary">a)</strong> Assinale a quantidade de eixos de simetria que ele apresenta.</p>
+                <p>
+                  <label class="radio">
+                    <input type="radio" name="answer2">
+                    (A) 4 eixos de simetria.
+                  </label>
+                </p>
+                <p>
+                  <label class="radio">
+                    <input type="radio" name="answer2">
+                    (B) 8 eixos de simetria.
+                  </label>
+                </p>
+                <p>
+                  <label class="radio">
+                    <input type="radio" name="answer2">
+                    (C) 12 eixos de simetria.
+                  </label>
+                </p>
+                <p>
+                  <label class="radio">
+                    <input type="radio" name="answer2">
+                    (D) 16 eixos de simetria.
+                  </label>
+                </p>
+                <p><strong class="has-text-primary">b)</strong> Trace os eixos de simetria no mandala.</p>
+              </li>
+              <li>
+                <p>Você já observou que, na frente do veículo, a palavra “ambulância” está escrita invertida?</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT065.jpg" data-aos="fade-up">
+                  <p class="credito-img">P. Imagens/Pith</p>
+                </figure>
+                <p>Pesquise e troque ideias com os seus familiares para explicar o porquê dessa escrita.</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="2"></textarea>
+              </li>
+              <li>
+                <p>Faça esta dobradura usando, se possível, papel de seda ou um papel mais fino que o sulfite, seguindo as indicações.</p>
+                <figure class="image wrapper mx-0">
+                  <img src="./img/MAT066.jpg" data-aos="fade-up">
+                  <p class="credito-img">©Shutterstock/Kozachenko Maksym</p>
+                </figure>
+                <p><strong class="has-text-primary">a)</strong> Quantos eixos de simetria tem essa figura?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                <p><strong class="has-text-primary">b)</strong> Quais tipos de simetrias são possíveis observar nessa figura?</p>
+                <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+              </li>
+            </ol>
             <h3>Organize as ideias</h3>
-            <p>Leia as informações a seguir.</p>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p><em>Macbeth</em>, peça teatral escrita pelo inglês William Shakespeare, em 1605, pode ser analisada como uma fonte histórica, pois nos permite visualizar algumas transformações políticas e filosóficas que ocorreram na Europa no
-                século XVI.</p>
-              <p>Essa história narra as ações de Macbeth e sua esposa, Lady Macbeth, que não hesitam em assassinar Duncan, rei da Escócia, para ficarem com o trono. Além de representar as violentas disputas pelo poder real, o qual se tornava cada vez
-                maior e centralizado nesse período, a obra faz uma série de provocações à Igreja, pois faz menção a bruxas e a profecias que guiam as ações dos personagens. Uma das maiores provocações à Igreja, no entanto, talvez se revele na frase
-                <strong>“A vida é uma história contada por um idiota, cheia de som e fúria, e que não significa nada”</strong>.
-              </p>
-            </div>
-            <p>Após a leitura do fragmento, responda à questão.</p>
-            <p>De que forma a ideia expressa na frase em destaque se contrapõe às ideias religiosas do século XVI?</p>
-            <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="3"></textarea>
-            <p>Na França, o Renascimento se destacou por suas produções literárias. François Rabelais (1494-1553), com suas obras literárias <em>Pantagruel e Gargântua</em>, fez críticas à Igreja e exaltou as ações humanas. Outro importante escritor
-              francês foi Michel de Montaigne (1533-1592), que, em sua obra <em>Ensaios</em>, colocou a harmonia e a aceitação do Universo da forma que é como um fator de equilíbrio para o ser humano.</p>
-            <h3>Outras histórias</h3>
-            <p>A Modernidade europeia ocasionou um renascer artístico e científico, seguidos de um despertar religioso. Fez parte desse processo uma nova organização política com base em reinos que surgiram no mundo medieval. Todo esse universo,
-              contudo, é europeu.</p>
-            <p>Os demais lugares do mundo, inclusive aqueles que, nessa época, ainda não haviam sido encontrados pelos reinos europeus, não vivenciaram o mesmo processo de transição para a Modernidade. Esse fato definiu as relações entre a Europa e
-              as demais regiões do mundo na Idade Moderna, a qual tem o eurocentrismo como uma de suas características, isto é, acreditava-se que o modo de vida europeu era superior aos modos de viver de outros povos.</p>
-            <p>A relação entre as metrópoles europeias e as colônias americanas, por exemplo, foi marcada pelo pensamento de que o modo de vida, a política e a religião europeus eram superiores. A ideia de superioridade, então, legitimou a exploração
-              das populações e das terras do Novo Mundo.</p>
-            <p>Na imagem a seguir, observe a representação do primeiro globo terrestre produzido. Nele, a América ainda não aparece, e a Europa é representada como centro do comércio mundial.</p>
-            <figure class="image wrapper mx-0">
-              <img src="./img/HIS014.jpg" data-aos="fade-up">
-              <p class="credito-img">Fotoarena/Album</p>
-              <div class="legenda is-size-7">
-                <h6>BEHAIM, Martin. Impressão a cores com base em uma pintura de Willy Planck. Stuttgart.</h6>
-                <h6>O primeiro globo terrestre moderno foi criado em 1492, em Nuremberg, pelo comerciante alemão Martin Behaim. Nesse globo, a América, onde Cristóvão Colombo chegou no mesmo ano, não foi representada.</h6>
-              </div>
-            </figure>
-            <div class="notification is-warning" data-aos="fade-up">
-              <p>Em 1492, na véspera da primeira viagem de Colombo ao Novo Mundo, o negociante de tecidos europeus, Martin Behaim, criou um objeto que sintetizou a fusão da economia global e a inovação artística que estava se tornando cada vez mais
-                característica da época. Behaim criou o primeiro globo terrestre conhecido do mundo. [...] ilustrado com cerca de 1 100 nomes de lugares e 48 miniaturas de reis e governantes, o globo de Behaim também apresentava legendas detalhadas,
-                descrevendo mercadorias, práticas comerciais e rotas de comércio do mundo conhecido até aquele momento.</p>
-            </div>
-            <div class="legenda is-size-7">
-              <h6>BROTTON, Jerry. <em>O bazar do Renascimento</em>: da rota da seda a Michelangelo. Tradução de Adriana de Oliveira. São Paulo: Grua, 2009. p. 60.</h6>
-            </div>
-            <h3>Troca de ideias</h3>
-            <p>A expressão “Novo Mundo” também é uma construção europeia, pois as terras da América eram “novas” para os europeus. Assim, podemos dizer que, também para as populações americanas, por exemplo, para os que viviam nas terras brasileiras
-              antes da chegada dos portugueses em 1500, o mundo em que viviam era novo?</p>
+            <p>A seção <strong>Organize as ideias</strong> foi pensada para ajudá-lo em seus estudos, pois a utilização de mapas conceituais, quadros esquemáticos ou resumos são muito eficientes para melhorar a compreensão dos conceitos.</p>
+            <p>Neste capítulo, estudamos as simetrias, também conhecidas como transformações geométricas. Complete o quadro associando a imagem ao tipo de simetria que elas lembram e descreva suas principais características.</p>
+            <table class="table table-bordered table-responsive-sm is-narrow has-text-centered">
+              <tbody>
+                <tr class="is-selected">
+                  <th>
+                    <p>Imagem</p>
+                  </th>
+                  <th>
+                    <p>Tipo de simetria</p>
+                  </th>
+                  <th>
+                    <p>Características</p>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT067.jpg" data-aos="fade-up">
+                      <p class="credito-img">©Shutterstock/nikkytok</p>
+                    </figure>
+                  </td>
+                  <td>
+                    <p>Rotação</p>
+                  </td>
+                  <td>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="4"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT068.jpg" data-aos="fade-up">
+                      <p class="credito-img">©iStockphoto.com/microgen </p>
+                    </figure>
+                  </td>
+                  <td>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                  </td>
+                  <td>
+                    <p>Conserva a forma, o tamanho e os ângulos.</p>
+                    <p>A figura ou objeto é deslocado em direção e sentido determinados. </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <figure class="image wrapper mx-0">
+                      <img src="./img/MAT069.jpg" data-aos="fade-up">
+                      <p class="credito-img">©iStockphoto.com/filipefrazao</p>
+                    </figure>
+                  </td>
+                  <td>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="1"></textarea>
+                  </td>
+                  <td>
+                    <textarea name="idpergunta_0" id="idpergunta_0" class="textarea" placeholder="" rows="4"></textarea>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
   </section>
+
 
 
   <footer class="footer has-text-centered">

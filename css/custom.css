@@ -21,20 +21,20 @@ section {
 }
 
 .is-primary {
-  background-color: #F1BEC0 !important;
+  background-color: #A4D5ED !important;
 }
 
 .has-text-primary {
-  color: #B8292F !important;
+  color: #0074AE !important;
   font-weight: 900;
 }
 
 .notification.is-warning {
-  background-color: #A6CE39;
+  background-color: #E8D881;
 }
 
 .hero .notification.is-warning {
-  background-color: #B8292F !important;
+  background-color: #0074AE !important;
   color: #fff;
 }
 
@@ -43,12 +43,12 @@ section {
 }
 
 .table tr.is-selected {
-  background-color: #B8292F !important;
+  background-color: #0074AE !important;
   color: #fff;
 }
 
 .is-primary .columns div {
-  background: #F1BEC0;
+  background: #A4D5ED;
   color: white;
 }
 
@@ -116,7 +116,7 @@ h1 span {
   border-radius: 3px;
   box-shadow: 4px 4px 1px #333333;
   margin-bottom: 10px;
-  background-color: #B8292F;
+  background-color: #0074AE;
   padding: 7px;
   display: inline-block;
 }
@@ -125,7 +125,7 @@ h1 span {
   /* font-weight: 600 !important; */
   background-color: transparent;
   text-align: left;
-  color: #B8292F;
+  color: #0074AE;
   margin-bottom: 1rem;
   padding: 0 10px;
   word-break: break-word;
@@ -134,7 +134,7 @@ h1 span {
 .content .legenda h6 {
   font-weight: 400 !important;
   color: #fff;
-  background-color: #B8292F;
+  background-color: #0074AE;
   padding: 10px;
   border-radius: 3px;
 }
@@ -146,7 +146,7 @@ blockquote strong {
 
 .notification.is-primary h3 {
   width: fit-content;
-  background: #B8292F;
+  background: #0074AE;
   padding: 10px;
   transform: rotate(-5deg);
   margin-top: -35px;
@@ -156,7 +156,7 @@ blockquote strong {
 
 .mapa h3 {
   width: fit-content;
-  background: #B8292F;
+  background: #0074AE;
   padding: 10px;
   color: white;
   margin-bottom: 0;
@@ -175,6 +175,11 @@ li {
 
 li * {
   font-weight: 400;
+}
+
+li strong {
+  color: #363636;
+  font-weight: 700;
 }
 
 .credito-img {
@@ -216,7 +221,7 @@ li * {
 }
 
 .abertura .title {
-  color: #B8292F;
+  color: #0074AE;
 }
 
 /* EXERCÍCIOS */
@@ -244,7 +249,7 @@ textarea {
   }
 
   .hero.is-large .hero-body {
-    height: 45vh;
+    height: 85vh;
   }
 
   .abertura .ponto-partida {
