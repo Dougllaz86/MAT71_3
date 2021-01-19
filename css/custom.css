@@ -249,7 +249,7 @@ textarea {
   }
 
   .hero.is-large .hero-body {
-    height: 85vh;
+    height: 45vh;
   }
 
   .abertura .ponto-partida {
@@ -265,4 +265,11 @@ textarea {
   ol {
     padding-left: 15px;
   }
+}
+
+.table td.is-selected, .table th.is-selected {
+  background-color: #0074AE;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
 }
